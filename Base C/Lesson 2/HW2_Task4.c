@@ -47,9 +47,11 @@ int main (void)
                 num_len++;//если не 0 увеличиваем количество цифр
             }
         //вывод результата
-        average = (fig1 + fig2 + fig3 + fig4) / num_len;
+        average = (fig1 + fig2 + fig3 + fig4) / 4.0;
         printf("результат вычисления числа %d\n", num);
-        printf("%.2f \n", average);
+        printf("среднее арифметическое с учетом нулей: %.2f \n", average);
+        average = (fig1 + fig2 + fig3 + fig4) / num_len;       
+        printf("среднее арифметическое за вычетом нулей: %.2f \n", average);
     }
 
     return 0;
