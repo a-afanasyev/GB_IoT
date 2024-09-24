@@ -24,5 +24,5 @@ int main(void){
 
         if (sum == mult){ printf("%d ", i);}
     }
-
+    return 0;
 }

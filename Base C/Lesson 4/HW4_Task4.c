@@ -15,4 +15,5 @@ int main(void){
         num /=10;
     }
     printf("%d -> %d\n", orig, rev);
+    return 0;
 }

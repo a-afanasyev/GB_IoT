@@ -18,7 +18,7 @@ int main(void){
         n /= 10;
         count ++;
     }
-//check count of numbers
+//check count of numbers 
     if (count !=3 ){
         printf("NO\n");
     }

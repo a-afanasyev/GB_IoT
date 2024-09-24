@@ -23,4 +23,5 @@ int main(void){
         num /= 10; 
     }
     printf("YES\n"); 
+    return 0;
 }
